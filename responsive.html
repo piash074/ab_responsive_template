@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+
+    <style>
+        .shadow {
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+        }
+
+        .shadow:hover {
+            scale: 1.05 !important;
+            transition: 1s !important;
+            box-shadow: 9px 9px 6px -3px rgba(69, 69, 69, 0.58) !important;
+            transform: translateY(-5px);
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 0 70px 0 70px;
+            justify-content: center;
+        }
+
+        .food {
+            border: 2px solid burlywood;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .food img {
+            width: 75%;
+
+
+        }
+
+        @media screen and (max-width:576px) {
+            .container {
+                /* background-color: blueviolet; */
+                grid-template-columns: repeat(2, 1fr);
+                margin: 0;
+
+            }
+        }
+
+        @media screen and (min-width:577px)and(max-width:990px) {
+
+
+            .container {
+                /* background-color: blueviolet; */
+                grid-template-columns: repeat(1, 1fr);
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="food shadow">
+            <img src="food.jpeg" alt="" sec="food">
+            <h2>item-1</h2>
+            <h4>price:1</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At consectetur pariatur quas nulla nesciunt
+                natus delectus ipsa nisi distinctio iste labore consequatur illo eius placeat adipisci, voluptate
+                dignissimos velit sit voluptatibus officiis! Vero.</p>
+            <button>order now</button>
+        </div>
+        <div class="food shadow ">
+            <img src="food.jpeg" alt="" sec="food">
+            <h2>item-2</h2>
+            <h4>price:2</h4>
+            <p>Ad molestias dolorem eaque iste quae ipsam eligendi minus necessitatibus, quisquam magni cum soluta culpa
+                aperiam reiciendis nulla sunt nisi optio. Suscipit expedita minima quos deleniti excepturi, explicabo
+                blanditiis labore exercitationem recusandae cum.</p>
+            <button>order now</button>
+        </div>
+        <div class="food shadow">
+            <img src="food.jpeg" alt="" sec="food">
+            <h2>item-3</h2>
+            <h4>price:3</h4>
+            <p>Provident ratione, velit maxime, obcaecati eius dicta saepe nam reprehenderit dolorem nesciunt iusto,
+                perspiciatis impedit iure. Corrupti, unde? Eligendi quia, consequuntur, veritatis nemo incidunt quo
+                doloremque doloribus natus aliquid atque dolore facilis voluptas.</p>
+            <button>order now</button>
+        </div>
+        <div class="food shadow">
+            <img src="food.jpeg" alt="" sec="food">
+            <h2>item-4</h2>
+            <h4>price:4</h4>
+            <p>Eligendi nisi distinctio nostrum ipsa quas cumque exercitationem illum quidem consectetur? Deleniti
+                architecto alias temporibus, a debitis sequi fugiat labore recusandae obcaecati sapiente maxime beatae
+                excepturi laborum quaerat voluptatem! Tempora adipisci praesentium magnam!</p>
+            <button>order now</button>
+        </div>
+        <div class="food shadow">
+            <img src="food.jpeg" alt="" sec="food">
+            <h2>item-5</h2>
+            <h4>price:5</h4>
+            <p>Perspiciatis ipsum expedita praesentium laboriosam veritatis aspernatur, aperiam est id blanditiis amet,
+                fugit reiciendis, culpa libero temporibus commodi nisi aliquam minus dolorum magni doloremque
+                reprehenderit odit cupiditate! Ipsum consequatur possimus ad eligendi aliquid.</p>
+            <button>order now</button>
+        </div>
+        <div class="food shadow">
+            <img src="food.jpeg" alt="" sec="food">
+            <h2>item-6</h2>
+            <h4>price:6</h4>
+            <p>Autem, maiores placeat facere doloribus porro laboriosam blanditiis consectetur corrupti officia,
+                possimus odio dolor aperiam voluptatem tempora! Deserunt commodi eum quasi! Numquam ipsam tenetur porro
+                aliquam iusto suscipit quam, ab alias atque! Quod?</p>
+            <button>order now</button>
+        </div>
+        <div class="food shadow">
+            <img src="food.jpeg" alt="" sec="food">
+            <h2>item-7</h2>
+            <h4>price:7</h4>
+            <p>Inventore, nihil. Ducimus, perferendis asperiores. Repudiandae aliquam necessitatibus ratione laboriosam
+                recusandae, praesentium vitae, ipsa dicta, quasi itaque sed delectus deserunt minus neque doloremque
+                magni possimus facilis quas cupiditate! Facere recusandae suscipit voluptatibus eos?</p>
+            <button>order now</button>
+        </div>
+        <div class="food shadow">
+            <img src="food.jpeg" alt="" sec="food">
+            <h2>item-8</h2>
+            <h4>price:8</h4>
+            <p>Assumenda quis magnam alias nam eaque numquam sint voluptates quidem sit. Mollitia, ex alias? Laudantium,
+                ea. Quae aspernatur praesentium id quaerat iste minus architecto hic. Quia nulla pariatur tempore nihil
+                nemo corrupti veritatis?</p>
+            <button>order now</button>
+        </div>
+        <div class="food shadow">
+            <img src="food.jpeg" alt="" sec="food">
+            <h2>item-9</h2>
+            <h4>price:9</h4>
+            <p>Repellendus veniam aut odit beatae quam esse error! Voluptas, accusantium! Perspiciatis ratione
+                accusantium ab recusandae deleniti, adipisci voluptatibus nostrum saepe velit eos cupiditate officia,
+                explicabo quasi tempore quis modi laborum quidem culpa id.</p>
+            <button>order now</button>
+        </div>
+        <div class="food shadow">
+            <img src="food.jpeg" alt="" sec="food">
+            <h2>item-10</h2>
+            <h4>price:10</h4>
+            <p>Consequuntur debitis quisquam veniam fugiat voluptatibus earum, dolores fuga quis dolor enim maxime cum
+                mollitia? A inventore sapiente velit ipsam eius qui quod porro architecto nemo nesciunt, assumenda,
+                laboriosam laudantium itaque soluta ullam.</p>
+            <button>order now</button>
+        </div>
+        <div class="food shadow">
+            <img src="food.jpeg" alt="" sec="food">
+            <h2>item-11</h2>
+            <h4>price:11</h4>
+            <p>Officiis, cupiditate. In quo mollitia eaque nesciunt cum incidunt, assumenda, error tempora odit
+                voluptatibus atque et laborum ipsam officiis vel consectetur! Ab rem iusto ducimus nesciunt cum facilis,
+                quo nulla dignissimos accusamus laboriosam!</p>
+            <button>order now</button>
+        </div>
+        <div class="food shadow">
+            <img src="food.jpeg" alt="" sec="food">
+            <h2>item-12</h2>
+            <h4>price:12</h4>
+            <p>Architecto dolorem tenetur consectetur eius facere ipsam officiis soluta, deleniti dolore perferendis
+                excepturi animi nobis libero rerum, quisquam earum modi at molestiae! Deleniti at cumque pariatur facere
+                dolor provident. Asperiores labore aut impedit!</p>
+            <button>order now</button>
+        </div>
+    </div>
+</body>
+
+</html>
